@@ -1,15 +1,15 @@
 function doggy(){
     let aitems = document.getElementsByClassName("aimg");
     for (let i=0; i < aitems.length; i++) {
-      aitems[i].src = "images\krustydog.png";}
+      aitems[i].src = "https://i.imgur.com/2gh2NBJ.png";}
 
       let bitems = document.getElementsByClassName("bimg");
     for (let i=0; i < bitems.length; i++) {
-      bitems[i].src = "images\krustydog.png";}
+      bitems[i].src = "https://i.imgur.com/2gh2NBJ.png";}
 
     let fitems = document.getElementsByClassName("footerphotos");
     for (let i=0; i < fitems.length; i++) {
-      fitems[i].src = "images\krustydog.png";
+      fitems[i].src = "https://i.imgur.com/2gh2NBJ.png";
       fitems[i].style.height = "70px"}
 
     let citems = document.getElementsByClassName("title");
