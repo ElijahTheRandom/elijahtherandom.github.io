@@ -1,15 +1,15 @@
 function doggy(){
     let aitems = document.getElementsByClassName("aimg");
     for (let i=0; i < aitems.length; i++) {
-      aitems[i].src = "https://static.wikia.nocookie.net/spongebob/images/9/9b/Krusty_Dogs_title_card.png/revision/latest?cb=20190716220233";}
+      aitems[i].src = "images\krustydog.png";}
 
       let bitems = document.getElementsByClassName("bimg");
     for (let i=0; i < bitems.length; i++) {
-      bitems[i].src = "https://static.wikia.nocookie.net/spongebob/images/9/9b/Krusty_Dogs_title_card.png/revision/latest?cb=20190716220233";}
+      bitems[i].src = "images\krustydog.png";}
 
     let fitems = document.getElementsByClassName("footerphotos");
     for (let i=0; i < fitems.length; i++) {
-      fitems[i].src = "https://static.wikia.nocookie.net/spongebob/images/9/9b/Krusty_Dogs_title_card.png/revision/latest?cb=20190716220233";
+      fitems[i].src = "images\krustydog.png";
       fitems[i].style.height = "70px"}
 
     let citems = document.getElementsByClassName("title");
