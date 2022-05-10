@@ -35,6 +35,17 @@
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  .topnav input {
+    all: unset;
+    cursor: pointer;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
   
   /* Change color on hover */
   .topnav a:hover {
@@ -42,6 +53,11 @@
     color: black;
   }
   
+  .topnav input:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
   /* Create two unequal columns that floats next to each other */
   /* Left column */
   .leftcolumn {   
@@ -71,6 +87,8 @@
   }
 
   .bimg {
+    display: inline-block;
+    width:49%;
     background-color: #f2a47d;
     padding: 20px;
   }
