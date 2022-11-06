@@ -1,0 +1,29 @@
+body{
+	background-color: antiquewhite;
+	text-align:center;
+	color:gray;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.hi{
+	width:100px;
+	margin:auto;
+	display: block;
+	border-radius:5%;
+	border:none;
+}
+
+.big{
+	width:90%;
+    height: 90%;
+	margin:auto;
+	display: block;
+	border-radius:5%;
+	border:none;
+}
+.bulbasaur{
+		font-size: 120%;
+}
